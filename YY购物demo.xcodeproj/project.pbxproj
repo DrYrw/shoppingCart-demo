@@ -15,6 +15,19 @@
 		1B1AD3D41C0C3CA200733E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD3D21C0C3CA200733E99 /* LaunchScreen.storyboard */; };
 		1B1AD3DF1C0C3CA200733E99 /* YY__demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AD3DE1C0C3CA200733E99 /* YY__demoTests.m */; };
 		1B1AD3EA1C0C3CA200733E99 /* YY__demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AD3E91C0C3CA200733E99 /* YY__demoUITests.m */; };
+		1B1AD3FD1C0C3F1400733E99 /* YYProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AD3FC1C0C3F1400733E99 /* YYProduct.m */; };
+		1B1AD4041C0C431300733E99 /* img6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD3FE1C0C431300733E99 /* img6.png */; };
+		1B1AD4051C0C431300733E99 /* 复选框-未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD3FF1C0C431300733E99 /* 复选框-未选中.png */; };
+		1B1AD4061C0C431300733E99 /* 复选框-选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD4001C0C431300733E99 /* 复选框-选中.png */; };
+		1B1AD4071C0C431300733E99 /* 按钮+.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD4011C0C431300733E99 /* 按钮+.png */; };
+		1B1AD4081C0C431300733E99 /* 按钮-.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD4021C0C431300733E99 /* 按钮-.png */; };
+		1B1AD4091C0C431300733E99 /* 购物车空.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD4031C0C431300733E99 /* 购物车空.png */; };
+		1B1AD40D1C0C477A00733E99 /* YYProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AD40B1C0C477A00733E99 /* YYProductCell.m */; };
+		1B1AD40E1C0C477A00733E99 /* YYProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD40C1C0C477A00733E99 /* YYProductCell.xib */; };
+		1B1AD4111C0C635600733E99 /* YYBottomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AD4101C0C635600733E99 /* YYBottomToolBar.m */; };
+		1B1AD4131C0C651000733E99 /* YYBottomToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD4121C0C651000733E99 /* YYBottomToolBar.xib */; };
+		1B1AD4161C0C65D400733E99 /* YYFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1AD4151C0C65D400733E99 /* YYFooterView.m */; };
+		1B1AD4181C0C833700733E99 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B1AD4171C0C833700733E99 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,23 @@
 		1B1AD3E51C0C3CA200733E99 /* YY购物demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YY购物demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1AD3E91C0C3CA200733E99 /* YY__demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YY__demoUITests.m; sourceTree = "<group>"; };
 		1B1AD3EB1C0C3CA200733E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1AD3FB1C0C3F1400733E99 /* YYProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYProduct.h; sourceTree = "<group>"; };
+		1B1AD3FC1C0C3F1400733E99 /* YYProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYProduct.m; sourceTree = "<group>"; };
+		1B1AD3FE1C0C431300733E99 /* img6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img6.png; sourceTree = "<group>"; };
+		1B1AD3FF1C0C431300733E99 /* 复选框-未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复选框-未选中.png"; sourceTree = "<group>"; };
+		1B1AD4001C0C431300733E99 /* 复选框-选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复选框-选中.png"; sourceTree = "<group>"; };
+		1B1AD4011C0C431300733E99 /* 按钮+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮+.png"; sourceTree = "<group>"; };
+		1B1AD4021C0C431300733E99 /* 按钮-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-.png"; sourceTree = "<group>"; };
+		1B1AD4031C0C431300733E99 /* 购物车空.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车空.png"; sourceTree = "<group>"; };
+		1B1AD40A1C0C477A00733E99 /* YYProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYProductCell.h; sourceTree = "<group>"; };
+		1B1AD40B1C0C477A00733E99 /* YYProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYProductCell.m; sourceTree = "<group>"; };
+		1B1AD40C1C0C477A00733E99 /* YYProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYProductCell.xib; sourceTree = "<group>"; };
+		1B1AD40F1C0C635600733E99 /* YYBottomToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYBottomToolBar.h; sourceTree = "<group>"; };
+		1B1AD4101C0C635600733E99 /* YYBottomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYBottomToolBar.m; sourceTree = "<group>"; };
+		1B1AD4121C0C651000733E99 /* YYBottomToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBottomToolBar.xib; sourceTree = "<group>"; };
+		1B1AD4141C0C65D400733E99 /* YYFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFooterView.h; sourceTree = "<group>"; };
+		1B1AD4151C0C65D400733E99 /* YYFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFooterView.m; sourceTree = "<group>"; };
+		1B1AD4171C0C833700733E99 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +131,10 @@
 		1B1AD3C31C0C3CA200733E99 /* YY购物demo */ = {
 			isa = PBXGroup;
 			children = (
-				1B1AD3C71C0C3CA200733E99 /* AppDelegate.h */,
-				1B1AD3C81C0C3CA200733E99 /* AppDelegate.m */,
-				1B1AD3CA1C0C3CA200733E99 /* ViewController.h */,
-				1B1AD3CB1C0C3CA200733E99 /* ViewController.m */,
-				1B1AD3CD1C0C3CA200733E99 /* Main.storyboard */,
-				1B1AD3D01C0C3CA200733E99 /* Assets.xcassets */,
-				1B1AD3D21C0C3CA200733E99 /* LaunchScreen.storyboard */,
-				1B1AD3D51C0C3CA200733E99 /* Info.plist */,
+				1B1AD3FA1C0C3EC700733E99 /* Main */,
+				1B1AD3F71C0C3E8A00733E99 /* Model */,
+				1B1AD3F91C0C3EB800733E99 /* View */,
+				1B1AD3F81C0C3EA700733E99 /* Controller */,
 				1B1AD3C41C0C3CA200733E99 /* Supporting Files */,
 			);
 			path = "YY购物demo";
@@ -117,6 +143,17 @@
 		1B1AD3C41C0C3CA200733E99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B1AD3CD1C0C3CA200733E99 /* Main.storyboard */,
+				1B1AD4171C0C833700733E99 /* 1.png */,
+				1B1AD3D01C0C3CA200733E99 /* Assets.xcassets */,
+				1B1AD3FE1C0C431300733E99 /* img6.png */,
+				1B1AD3FF1C0C431300733E99 /* 复选框-未选中.png */,
+				1B1AD4001C0C431300733E99 /* 复选框-选中.png */,
+				1B1AD4011C0C431300733E99 /* 按钮+.png */,
+				1B1AD4021C0C431300733E99 /* 按钮-.png */,
+				1B1AD4031C0C431300733E99 /* 购物车空.png */,
+				1B1AD3D21C0C3CA200733E99 /* LaunchScreen.storyboard */,
+				1B1AD3D51C0C3CA200733E99 /* Info.plist */,
 				1B1AD3C51C0C3CA200733E99 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +175,48 @@
 				1B1AD3EB1C0C3CA200733E99 /* Info.plist */,
 			);
 			path = "YY购物demoUITests";
+			sourceTree = "<group>";
+		};
+		1B1AD3F71C0C3E8A00733E99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B1AD3FB1C0C3F1400733E99 /* YYProduct.h */,
+				1B1AD3FC1C0C3F1400733E99 /* YYProduct.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1B1AD3F81C0C3EA700733E99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B1AD3CA1C0C3CA200733E99 /* ViewController.h */,
+				1B1AD3CB1C0C3CA200733E99 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1B1AD3F91C0C3EB800733E99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B1AD40A1C0C477A00733E99 /* YYProductCell.h */,
+				1B1AD40B1C0C477A00733E99 /* YYProductCell.m */,
+				1B1AD40C1C0C477A00733E99 /* YYProductCell.xib */,
+				1B1AD40F1C0C635600733E99 /* YYBottomToolBar.h */,
+				1B1AD4101C0C635600733E99 /* YYBottomToolBar.m */,
+				1B1AD4121C0C651000733E99 /* YYBottomToolBar.xib */,
+				1B1AD4141C0C65D400733E99 /* YYFooterView.h */,
+				1B1AD4151C0C65D400733E99 /* YYFooterView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1B1AD3FA1C0C3EC700733E99 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1B1AD3C71C0C3CA200733E99 /* AppDelegate.h */,
+				1B1AD3C81C0C3CA200733E99 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +281,9 @@
 		1B1AD3B91C0C3CA200733E99 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1000,
+				);
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = YY;
 				TargetAttributes = {
@@ -247,8 +329,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1AD3D41C0C3CA200733E99 /* LaunchScreen.storyboard in Resources */,
+				1B1AD4131C0C651000733E99 /* YYBottomToolBar.xib in Resources */,
+				1B1AD40E1C0C477A00733E99 /* YYProductCell.xib in Resources */,
+				1B1AD4051C0C431300733E99 /* 复选框-未选中.png in Resources */,
 				1B1AD3D11C0C3CA200733E99 /* Assets.xcassets in Resources */,
+				1B1AD4041C0C431300733E99 /* img6.png in Resources */,
+				1B1AD4061C0C431300733E99 /* 复选框-选中.png in Resources */,
 				1B1AD3CF1C0C3CA200733E99 /* Main.storyboard in Resources */,
+				1B1AD4081C0C431300733E99 /* 按钮-.png in Resources */,
+				1B1AD4181C0C833700733E99 /* 1.png in Resources */,
+				1B1AD4071C0C431300733E99 /* 按钮+.png in Resources */,
+				1B1AD4091C0C431300733E99 /* 购物车空.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +364,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1AD4161C0C65D400733E99 /* YYFooterView.m in Sources */,
+				1B1AD40D1C0C477A00733E99 /* YYProductCell.m in Sources */,
+				1B1AD4111C0C635600733E99 /* YYBottomToolBar.m in Sources */,
 				1B1AD3CC1C0C3CA200733E99 /* ViewController.m in Sources */,
+				1B1AD3FD1C0C3F1400733E99 /* YYProduct.m in Sources */,
 				1B1AD3C91C0C3CA200733E99 /* AppDelegate.m in Sources */,
 				1B1AD3C61C0C3CA200733E99 /* main.m in Sources */,
 			);
@@ -415,6 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "YY购物demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YY.YY--demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "YY购物demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YY.YY--demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +596,7 @@
 				1B1AD3F01C0C3CA200733E99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B1AD3F11C0C3CA200733E99 /* Build configuration list for PBXNativeTarget "YY购物demoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +605,7 @@
 				1B1AD3F31C0C3CA200733E99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B1AD3F41C0C3CA200733E99 /* Build configuration list for PBXNativeTarget "YY购物demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +614,7 @@
 				1B1AD3F61C0C3CA200733E99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
