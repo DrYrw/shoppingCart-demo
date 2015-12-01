@@ -34,6 +34,17 @@
     
     // 设置底部工具条
     [self setupToolbar];
+    
+    // 设置footer
+    [self setupFooter];
+}
+
+/**
+ *  设置footer
+ */
+- (void)setupFooter
+{
+    self.tableView.tableFooterView = [[YYFooterView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 50)];
 }
 
 /**
@@ -99,7 +110,6 @@
         product.selected = NO;
     }
     
-    
     // 拿到底部条中的全选按钮，当某一个模型取消选中，则取消全选
     UIButton *selectAllBtn = [self.toolbar viewWithTag:1000];
     if (product.isSelected == NO) {
@@ -122,14 +132,12 @@
     
     // 计算显示总价格
     [self countingTotalPrice];
-    
 }
 
 #pragma mark - YYProductCell 代理
 // 点击了加号按钮
 - (void)productCell:(YYProductCell *)cell didClickedPlusBtn:(UIButton *)plusBtn
 {
-
     // 拿到点击的cell对应的indexpath
     NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
     
@@ -146,7 +154,6 @@
 // 点击了减号按钮
 - (void)productCell:(YYProductCell *)cell didClickedMinusBtn:(UIButton *)minusBtn
 {
-
     // 拿到点击的cell对应的indexpath
     NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
     
@@ -181,7 +188,6 @@
     
     // 总价清零（每次要重新计算）
     self.totalPrice = 0;
-
 }
 
 #pragma mark - YYBottomToolBar代理
@@ -210,7 +216,7 @@
     if (_products == nil) {
         _products = [NSArray array];
         
-        NSMutableArray *ary = [NSMutableArray array];
+        NSMutableArray *array = [NSMutableArray array];
         for (int i = 0; i < 20; i++) {
             NSMutableDictionary *dict = [NSMutableDictionary dictionary];
             dict[@"name"] = [NSString stringWithFormat:@"测试商品%d", i];
@@ -220,9 +226,9 @@
             dict[@"selected"] = [NSNumber numberWithBool:NO];
             
             YYProduct *product = [[YYProduct alloc] initWithDict:dict];
-            [ary addObject:product];
+            [array addObject:product];
         }
-        _products = ary;
+        _products = array;
     }
     return _products;
 }

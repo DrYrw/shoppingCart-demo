@@ -15,6 +15,11 @@
 @end
 @implementation YYBottomToolBar
 
+- (void)awakeFromNib
+{
+    self.alpha = 0.95f;
+}
+
 - (void)setTotalPrice:(CGFloat)totalPrice
 {
     _totalPrice = totalPrice;
